@@ -1,0 +1,12 @@
+touch .gitignore
+git congifg --global user.name "suraj"
+git congifg --global user.email "surajsinghjadone@gmail.com"
+git init
+git add .
+git commit -m "intial commit"
+git status #just to see
+ ssh-keygen -t ed25519 -C "surajsinghjadone.com"
+cat  y.pub   # add this key to your github
+git remote add orign <ssh url.git>
+git push origion master
+
